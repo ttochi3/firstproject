@@ -22,4 +22,6 @@ public class Article {
     private String content;
 
 
+    public Article(Object o, String title, String content) {
+    }
 }
