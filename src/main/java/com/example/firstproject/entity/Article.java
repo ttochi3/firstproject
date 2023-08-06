@@ -20,7 +20,6 @@ public class Article {
     @Column
     private String content;
 
-
     public Article(Object o, String title, String content) {
     }
 }
