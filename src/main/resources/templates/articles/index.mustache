@@ -1,0 +1,13 @@
+{{>layouts/header}}
+
+<table class="table"> <!-- show.mustache 에서 복사한 코드 붙여 넣기 -->
+    {{#articleList}}
+    <tr>
+        <td>{{id}}</td>
+        <td>{{title}}</td>
+        <td>{{content}}</td>
+    </tr>
+    {{/articleList}}
+</table>
+
+{{>layouts/footer}}
