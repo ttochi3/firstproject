@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController // REST 컨트롤러 선언
 public class CommentApiController {
-    @Autowired
+    @Autowired // 컨트롤러가 서비스와 협업할 수 있도록 객체 주입.
     private CommentService commentService; // 댓글 서비스 객체 주입
 
     // 1. 댓글 조회
